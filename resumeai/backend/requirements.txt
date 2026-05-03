@@ -1,0 +1,33 @@
+# ─── FastAPI & ASGI ───────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ─── Settings & Env ──────────────────────────────────────────────────────────
+pydantic
+pydantic-settings
+python-dotenv
+
+# ─── Database ────────────────────────────────────────────────────────────────
+sqlalchemy
+aiosqlite
+asyncpg
+
+# ─── Redis (optional) ────────────────────────────────────────────────────────
+aioredis
+
+# ─── HTTP Client ─────────────────────────────────────────────────────────────
+httpx
+
+# ─── File Extraction ─────────────────────────────────────────────────────────
+pdfplumber
+python-docx
+Pillow
+pytesseract
+pdf2image
+
+# ─── Rate Limiting ───────────────────────────────────────────────────────────
+slowapi
+
+# ─── PDF Generation ──────────────────────────────────────────────────────────
+reportlab
