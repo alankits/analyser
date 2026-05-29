@@ -1,6 +1,7 @@
 import axios from "axios";
 import type { AnalysisResponse } from "./types";
 
+// API base URL — set NEXT_PUBLIC_API_URL in Vercel environment variables
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export const apiClient = axios.create({
